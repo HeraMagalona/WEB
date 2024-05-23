@@ -1,0 +1,133 @@
+
+
+body{
+
+    background-image: url("watercolorflower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.menu{
+    ul{
+        list-style-type:none;
+        margin: 0; 
+        padding: 0;
+        overflow:hidden;
+        background-color: rgb(26, 29, 11);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    li{
+    
+        float: left;
+    }
+    li a{
+       display:block;
+          color: rgb(250, 249, 249);
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration:none
+        }
+    
+    li a:hover{
+        background-color: rgb(175, 175, 187);
+       
+    }
+    header{
+        padding: 0;
+        display:flex;
+    
+    } 
+}
+
+
+
+.title{
+    padding-inline-start: 100px;
+        font-family: "Meddon", cursive;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 40px;
+         
+}
+  
+
+.grid-container {
+    display:grid;
+    justify-content:space-evenly;
+    padding: auto;
+font-family: monospace;
+
+  } 
+  .grid-item {
+    
+    padding: 5px;
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.799);
+    transition: all 0.3s ease;
+   
+
+  }
+  .grid-item:hover {
+    transform: translateY(-5px);
+  
+  }
+
+  input[type=email] {
+   
+    border: 5px solid rgb(14, 13, 13);
+    border-radius: 50px ;
+     }
+
+     input[type=submit] {
+       background-color: rgb(231, 174, 58);
+       border: none;
+       border-radius: 50px ;
+       cursor: pointer;
+            transition: all 0.3s ease;
+    
+         }
+    
+
+         form {
+            min-height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           padding: .5rem;
+            font: size 0.5em;
+        }
+        
+footer
+{ 
+    align-items: center;
+}
+/*Table for 2nd BLOG*/
+table, th, td {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:aliceblue  }
+
+/* MENU BAR */
+
+ .quote{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 30px;
+    color: #433175;
+ }
+.content{ font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;}
+
+ .rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .Tutorials{font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;}
+
+    .content_background{
+        background-color: rgb(236, 131, 175);
+    }
